@@ -16,7 +16,7 @@
 ### Goal
 To use machine learning to automatically translate Kuzushiji to modern Japanese texts in order to unlock classical Japanese literature and Japanese history contained in these books.
 
-![Kuzushiji with the contemporary traslations on the side](https://thegradient.pub/content/images/2019/11/image6.jpg)
+![Kuzushiji with the contemporary traslations on the side](https://thegradient.pub/content/images/2019/11/image6.jpg 50x20)
 
 ### Solution
 I used a 2-step solution where I first use CenterNet neural networks to detect characters within a page, followed by  Convoluted Neural Networks with a ResNet backbone to then classify each character to a modern Japanese character.
