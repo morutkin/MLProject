@@ -1,4 +1,5 @@
-# Machine Learning Final Project
+# Machine Learning Final Project: Kuzushiji Translation
+![Kuzushiji](https://i.imgur.com/dhBM3BG.jpg)
 
 ### Background on the Kuzushiji Challenge
 
@@ -16,7 +17,7 @@
 ### Goal
 To use machine learning to automatically translate Kuzushiji to modern Japanese texts in order to unlock classical Japanese literature and Japanese history contained in these books.
 
-![Kuzushiji with the contemporary traslations on the side](https://thegradient.pub/content/images/2019/11/image6.jpg=250x)
+![Kuzushiji with the contemporary traslations on the side](https://thegradient.pub/content/images/2019/11/image6.jpg)
 
 ### Solution
 I used a 2-step solution where I first use CenterNet neural networks to detect characters within a page, followed by  Convoluted Neural Networks with a ResNet backbone to then classify each character to a modern Japanese character.
